@@ -6,5 +6,5 @@ while tickets > 0:
     tickets = -1
 
 TICKET = 50
-TICKET = 30
+TICKET = 31
 print(TICKET)
