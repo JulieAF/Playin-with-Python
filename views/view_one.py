@@ -326,3 +326,11 @@ if all(potion in potions for potion in required_potions):
 else:
     print("❌ You don't have enough potions.")
     print("🚫 The Wizard will not see you yet.")
+print("🏰 You enter the Wizard's tower.")
+print("The room is filled with glowing books and bubbling cauldrons.")
+print("🧙‍♂️ A mysterious wizard approaches you.")
+
+wizard_met = True
+
+if wizard_met:
+    print("✨ You have met the Wizard!")
