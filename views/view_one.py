@@ -343,3 +343,14 @@ if wizard_met:
     print("✨ You have met the Wizard!")
     print("🧙‍♂️ Wizard: Welcome, brave adventurer.")
     print("🧙‍♂️ Wizard: I have been expecting you.")
+wizard_name = "Eldrin"
+
+print("🏰 You enter the Wizard's tower.")
+print("The room is filled with glowing books and bubbling cauldrons.")
+
+wizard_met = True
+
+if wizard_met:
+    print(f"✨ You have met Wizard {wizard_name}!")
+    print(f"🧙‍♂️ {wizard_name}: Welcome, brave adventurer.")
+    print(f"🧙‍♂️ {wizard_name}: I have been expecting you.")
