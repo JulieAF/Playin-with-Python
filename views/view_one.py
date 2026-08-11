@@ -366,3 +366,21 @@ if wizard_met:
     print(f"🧙‍♂️ {wizard_name}: I have been expecting you.")
     print(f"🧙‍♂️ {wizard_name}: The forest has become dangerous.")
     print(f"🧙‍♂️ {wizard_name}: I need you to investigate what is happening.")
+wizard_name = "Eldrin"
+
+print("🏰 You enter the Wizard's tower.")
+
+wizard_met = True
+quest_accepted = False
+
+if wizard_met:
+    print(f"✨ You have met Wizard {wizard_name}!")
+    print(f"🧙‍♂️ {wizard_name}: Welcome, brave adventurer.")
+    print(f"🧙‍♂️ {wizard_name}: I have a quest for you.")
+    print(f"🧙‍♂️ {wizard_name}: The forest has become dangerous.")
+
+    quest_accepted = True
+
+if quest_accepted:
+    print("\n📜 QUEST ACCEPTED!")
+    print("Investigate the mysterious forest.")
