@@ -422,3 +422,9 @@ health += potion
 
 print("You drink a healing potion.")
 print(f"Health restored to {health}.")
+print("Night falls.")
+print("You build a small campfire and make camp.")
+
+time.sleep(2)
+
+print("The fire keeps the creatures away.")
