@@ -428,3 +428,6 @@ print("You build a small campfire and make camp.")
 time.sleep(2)
 
 print("The fire keeps the creatures away.")
+print("You wake up at sunrise.")
+print("You survived the night.")
+print("Your quest continues.")
