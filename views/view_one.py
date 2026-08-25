@@ -393,3 +393,8 @@ print("The fall hurts!")
 health -= 15
 
 print(f"Health: {health}")
+import time
+
+print("You find a quiet clearing and decide to rest.")
+time.sleep(3)
+print("You wake up feeling slightly better.")
