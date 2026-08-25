@@ -387,3 +387,9 @@ if quest_accepted:
 print("You walk confidently into the forest...")
 print("CRACK!")
 print("You fall into a hidden pitfall.")
+health = 100
+
+print("The fall hurts!")
+health -= 15
+
+print(f"Health: {health}")
