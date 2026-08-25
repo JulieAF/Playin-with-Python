@@ -384,3 +384,6 @@ if wizard_met:
 if quest_accepted:
     print("\n📜 QUEST ACCEPTED!")
     print("Investigate the mysterious forest.")
+print("You walk confidently into the forest...")
+print("CRACK!")
+print("You fall into a hidden pitfall.")
