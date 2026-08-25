@@ -409,3 +409,6 @@ directions = ["north", "south", "east", "west"]
 print("You check your map.")
 print("Unfortunately, the map is upside down.")
 print("You have no idea where you are.")
+print("You discover a mysterious trail.")
+print("A sign reads: 'SHORTCUT - probably safe.'")
+print("You decide to take your chances.")
