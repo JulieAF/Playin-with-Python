@@ -398,3 +398,9 @@ import time
 print("You find a quiet clearing and decide to rest.")
 time.sleep(3)
 print("You wake up feeling slightly better.")
+stamina = 100
+
+print("The journey has been exhausting.")
+stamina -= 30
+
+print(f"Stamina remaining: {stamina}")
