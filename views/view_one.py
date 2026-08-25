@@ -415,3 +415,10 @@ print("You decide to take your chances.")
 print("The shortcut seemed like a good idea...")
 print("It was not.")
 print("You step on a pressure plate.")
+health = 85
+
+potion = 20
+health += potion
+
+print("You drink a healing potion.")
+print(f"Health restored to {health}.")
