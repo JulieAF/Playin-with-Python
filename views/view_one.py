@@ -488,3 +488,9 @@ def reveal_condition(self):
 
 
 witch.reveal_condition()
+choice = input("Do you trust the witch? (yes/no): ").lower()
+
+if choice == "yes":
+    print("You follow the witch deeper into the forest.")
+else:
+    print("You leave the witch behind and continue the quest alone.")
