@@ -441,3 +441,13 @@ class Witch:
 witch = Witch("Morrigan")
 
 print(f"You meet a mysterious witch named {witch.name}.")
+
+
+class Hero:
+    def __init__(self, name):
+        self.name = name
+
+
+hero = Hero("Adventurer")
+
+print(f"{hero.name} is on a dangerous quest.")
