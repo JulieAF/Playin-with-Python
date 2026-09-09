@@ -458,3 +458,10 @@ def offer_help(self):
 
 
 witch.offer_help()
+
+
+def give_gift(self, gift):
+    print(f"{self.name} gives you {gift}.")
+
+
+witch.give_gift("an enchanted lantern")
