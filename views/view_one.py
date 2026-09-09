@@ -474,3 +474,10 @@ def accept_gift(self, gift):
 hero.accept_gift("the enchanted lantern")
 witch.give_gift("a silver sword")
 hero.accept_gift("the silver sword")
+
+
+def question_witch(self):
+    print(f"{self.name}: 'Why are you helping me?'")
+
+
+hero.question_witch()
