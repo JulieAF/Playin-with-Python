@@ -451,3 +451,10 @@ class Hero:
 hero = Hero("Adventurer")
 
 print(f"{hero.name} is on a dangerous quest.")
+
+
+def offer_help(self):
+    print(f"{self.name}: 'I can give you everything you need to finish your quest.'")
+
+
+witch.offer_help()
