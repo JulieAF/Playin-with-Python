@@ -431,3 +431,13 @@ print("The fire keeps the creatures away.")
 print("You wake up at sunrise.")
 print("You survived the night.")
 print("Your quest continues.")
+
+
+class Witch:
+    def __init__(self, name):
+        self.name = name
+
+
+witch = Witch("Morrigan")
+
+print(f"You meet a mysterious witch named {witch.name}.")
