@@ -481,3 +481,10 @@ def question_witch(self):
 
 
 hero.question_witch()
+
+
+def reveal_condition(self):
+    print(f"{self.name}: 'Of course, nothing is ever truly free.'")
+
+
+witch.reveal_condition()
