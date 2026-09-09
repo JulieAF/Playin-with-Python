@@ -494,3 +494,6 @@ if choice == "yes":
     print("You follow the witch deeper into the forest.")
 else:
     print("You leave the witch behind and continue the quest alone.")
+print("\nThe hero looks at everything the witch has given them.")
+print("She has given you exactly what you need.")
+print("But you still don't know what she wants in return.")
