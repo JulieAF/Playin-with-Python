@@ -465,3 +465,10 @@ def give_gift(self, gift):
 
 
 witch.give_gift("an enchanted lantern")
+
+
+def accept_gift(self, gift):
+    print(f"{self.name} accepts {gift}.")
+
+
+hero.accept_gift("the enchanted lantern")
