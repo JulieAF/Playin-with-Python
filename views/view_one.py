@@ -544,3 +544,24 @@ def spar(hero, monk):
 
 
 spar(hero, monk)
+
+
+def final_challenge(hero):
+    required_strength = 20
+    required_discipline = 15
+
+    if (
+        hero["strength"] >= required_strength
+        and hero["discipline"] >= required_discipline
+    ):
+        print(f"{hero['name']} has passed the final challenge!")
+    else:
+        print(f"{hero['name']} must continue training.")
+
+
+final_challenge(hero)
+print("\n--- Training Complete ---")
+print(f"Hero: {hero['name']}")
+print(f"Health: {hero['health']}")
+print(f"Strength: {hero['strength']}")
+print(f"Discipline: {hero['discipline']}")
