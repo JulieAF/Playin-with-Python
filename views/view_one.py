@@ -497,3 +497,6 @@ else:
 print("\nThe hero looks at everything the witch has given them.")
 print("She has given you exactly what you need.")
 print("But you still don't know what she wants in return.")
+hero = {"name": "Arin", "health": 100, "strength": 10, "discipline": 5}
+
+print(f"{hero['name']} has arrived in the mountains.")
