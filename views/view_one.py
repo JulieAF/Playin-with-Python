@@ -500,3 +500,6 @@ print("But you still don't know what she wants in return.")
 hero = {"name": "Arin", "health": 100, "strength": 10, "discipline": 5}
 
 print(f"{hero['name']} has arrived in the mountains.")
+monk = {"name": "Master Ren", "wisdom": 100, "patience": 100}
+
+print(f"{monk['name']} will train {hero['name']}.")
