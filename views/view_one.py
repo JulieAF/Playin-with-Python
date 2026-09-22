@@ -509,3 +509,11 @@ print(f"{hero['name']} begins training on {mountain['name']}.")
 mountain = {"name": "Mount Kairo", "height": 12000, "temperature": 25}
 
 print(f"{hero['name']} begins training on {mountain['name']}.")
+
+
+def train_strength(hero):
+    hero["strength"] += 5
+    print(f"{hero['name']} trains with heavy stones.")
+
+
+train_strength(hero)
