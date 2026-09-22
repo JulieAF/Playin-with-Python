@@ -526,3 +526,11 @@ def climb_mountain(hero):
 
 
 climb_mountain(hero)
+
+
+def monk_lesson(monk, hero):
+    hero["discipline"] += monk["wisdom"] // 20
+    print(f"{monk['name']} teaches {hero['name']} the importance of patience.")
+
+
+monk_lesson(monk, hero)
