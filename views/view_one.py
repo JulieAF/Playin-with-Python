@@ -506,3 +506,6 @@ print(f"{monk['name']} will train {hero['name']}.")
 mountain = {"name": "Mount Kairo", "height": 12000, "temperature": 25}
 
 print(f"{hero['name']} begins training on {mountain['name']}.")
+mountain = {"name": "Mount Kairo", "height": 12000, "temperature": 25}
+
+print(f"{hero['name']} begins training on {mountain['name']}.")
