@@ -534,3 +534,13 @@ def monk_lesson(monk, hero):
 
 
 monk_lesson(monk, hero)
+
+
+def spar(hero, monk):
+    hero["health"] -= 5
+    hero["strength"] += 3
+    hero["discipline"] += 2
+    print(f"{hero['name']} spars with {monk['name']}.")
+
+
+spar(hero, monk)
