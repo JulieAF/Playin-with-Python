@@ -517,3 +517,12 @@ def train_strength(hero):
 
 
 train_strength(hero)
+
+
+def climb_mountain(hero):
+    hero["health"] -= 10
+    hero["discipline"] += 3
+    print(f"{hero['name']} climbs higher into the mountains.")
+
+
+climb_mountain(hero)
