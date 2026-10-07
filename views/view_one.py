@@ -584,3 +584,18 @@ village["roads"] = True
 village["meeting_hall"] = True
 village["gardens"] = True
 villagers_returned = True
+village_rebuilt = all(
+    [
+        debris_cleared,
+        village["homes"] > 0,
+        village["well"],
+        village["fields"],
+        village["workshops"],
+        village["roads"],
+        village["meeting_hall"],
+        village["gardens"],
+        villagers_returned,
+    ]
+)
+
+print("The village has been rebuilt:", village_rebuilt)
