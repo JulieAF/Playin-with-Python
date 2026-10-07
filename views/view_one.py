@@ -583,3 +583,4 @@ village["workshops"] = True
 village["roads"] = True
 village["meeting_hall"] = True
 village["gardens"] = True
+villagers_returned = True
