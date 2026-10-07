@@ -578,3 +578,4 @@ village = {
 debris_cleared = True
 village["homes"] = 5
 village["well"] = True
+village["fields"] = True
