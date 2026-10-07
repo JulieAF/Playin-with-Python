@@ -565,3 +565,14 @@ print(f"Hero: {hero['name']}")
 print(f"Health: {hero['health']}")
 print(f"Strength: {hero['strength']}")
 print(f"Discipline: {hero['discipline']}")
+village = {
+    "homes": 0,
+    "well": False,
+    "fields": False,
+    "workshops": False,
+    "roads": False,
+    "meeting_hall": False,
+    "gardens": False,
+}
+
+debris_cleared = True
