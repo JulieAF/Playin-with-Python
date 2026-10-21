@@ -599,3 +599,10 @@ village_rebuilt = all(
 )
 
 print("The village has been rebuilt:", village_rebuilt)
+weapons = ["Sword", "Bow", "Battle Axe", "Spear", "Magic Staff"]
+
+print("Welcome, brave hero!")
+print("Available weapons:")
+
+for weapon in weapons:
+    print(weapon)
