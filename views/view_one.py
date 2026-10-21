@@ -612,3 +612,7 @@ print("Choose your weapon:")
 
 for number, weapon in enumerate(weapons, start=1):
     print(f"{number}. {weapon}")
+weapons = {"Sword": 25, "Bow": 20, "Battle Axe": 35, "Spear": 22, "Magic Staff": 30}
+
+for weapon, damage in weapons.items():
+    print(f"{weapon} deals {damage} damage.")
