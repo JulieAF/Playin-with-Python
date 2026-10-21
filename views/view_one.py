@@ -606,3 +606,9 @@ print("Available weapons:")
 
 for weapon in weapons:
     print(weapon)
+weapons = ["Sword", "Bow", "Battle Axe", "Spear", "Magic Staff"]
+
+print("Choose your weapon:")
+
+for number, weapon in enumerate(weapons, start=1):
+    print(f"{number}. {weapon}")
