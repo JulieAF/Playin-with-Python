@@ -616,3 +616,11 @@ weapons = {"Sword": 25, "Bow": 20, "Battle Axe": 35, "Spear": 22, "Magic Staff":
 
 for weapon, damage in weapons.items():
     print(f"{weapon} deals {damage} damage.")
+weapons = ["Sword", "Bow", "Battle Axe", "Spear", "Magic Staff"]
+
+choice = input("Choose your weapon: ").title()
+
+if choice in weapons:
+    print(f"You have chosen the {choice}!")
+else:
+    print("That weapon is not available.")
