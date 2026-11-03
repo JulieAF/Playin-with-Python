@@ -624,3 +624,4 @@ if choice in weapons:
     print(f"You have chosen the {choice}!")
 else:
     print("That weapon is not available.")
+weapons = ["Sword", "Bow", "Battle Axe", "Spear", "Magic Staff"]while True:    choice = input("Choose your weapon: ").strip().title()    if choice in weapons:        print(f"You equip the {choice}.")        break    else:        print("Invalid choice. Try again.")
