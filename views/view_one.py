@@ -672,3 +672,15 @@ def display_familiar(familiar, name):
     print("\nYour Familiar")
     print(f"Type: {familiar}")
     print(f"Name: {name}")
+    hero = {
+    "name": "Hero",
+    "familiar": None
+}
+
+hero["familiar"] = {
+    "type": choose_familiar(),
+    "name": name_familiar()
+}
+
+print("Your familiar has been saved!")
+print(hero)
