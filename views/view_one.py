@@ -646,3 +646,8 @@ def show_familiars():
     else:
         print("That familiar is not available.")
         return None
+    wolf = {
+    "name": "Wolf",
+    "ability": "Tracking",
+    "description": "Can track enemies through the forest."
+}
