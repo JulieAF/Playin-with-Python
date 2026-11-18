@@ -664,3 +664,7 @@ cat = {
 def bond_with_familiar(familiar):
     print(f"The hero begins bonding with their {familiar}.")
     print("A magical connection begins to form!")
+    def name_familiar():
+    name = input("What would you like to name your familiar? ")
+    print(f"Your familiar is now named {name}!")
+    return name 
