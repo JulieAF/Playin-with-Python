@@ -668,3 +668,7 @@ def bond_with_familiar(familiar):
     name = input("What would you like to name your familiar? ")
     print(f"Your familiar is now named {name}!")
     return name 
+def display_familiar(familiar, name):
+    print("\nYour Familiar")
+    print(f"Type: {familiar}")
+    print(f"Name: {name}")
