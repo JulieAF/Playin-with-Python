@@ -651,3 +651,8 @@ def show_familiars():
     "ability": "Tracking",
     "description": "Can track enemies through the forest."
 }
+raven = {
+    "name": "Raven",
+    "ability": "Scouting",
+    "description": "Can fly ahead and scout dangerous areas."
+}
