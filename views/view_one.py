@@ -637,3 +637,12 @@ def choose_familiar():
 def show_familiars():
     for familiar in familiars:
         print(familiar)
+        def choose_familiar():
+    show_familiars()
+    choice = input("Which familiar will you choose? ").capitalize()
+
+    if choice in familiars:
+        return choice
+    else:
+        print("That familiar is not available.")
+        return None
