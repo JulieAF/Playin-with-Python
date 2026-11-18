@@ -656,3 +656,8 @@ raven = {
     "ability": "Scouting",
     "description": "Can fly ahead and scout dangerous areas."
 }
+cat = {
+    "name": "Cat",
+    "ability": "Stealth",
+    "description": "Can move silently and avoid detection."
+}
