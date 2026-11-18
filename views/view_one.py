@@ -661,3 +661,6 @@ cat = {
     "ability": "Stealth",
     "description": "Can move silently and avoid detection."
 }
+def bond_with_familiar(familiar):
+    print(f"The hero begins bonding with their {familiar}.")
+    print("A magical connection begins to form!")
